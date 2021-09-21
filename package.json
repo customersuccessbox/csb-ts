@@ -1,6 +1,6 @@
 {
   "name": "csb-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CSB Typescript Package to Send Events",
   "repository": "https://github.com/customersuccessbox/csb-ts",
   "main": "dist/index.js",
