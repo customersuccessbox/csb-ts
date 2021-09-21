@@ -14,7 +14,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "test": "cross-env ENDPOINT=https://uat.customersuccessbox.com API_KEY=ev9Sjz4hlYW0bMRBxmg3FwXCSTQfjAnGEf2vvHYCa+4= jest --config jest.config.json",
+    "test": "cross-env ENDPOINT=https://xen.staging.customersuccessbox.com API_KEY=HIpCPTmhCou/lvGwMdn7fUZ25bl24d2EmwXRqJrhcDY= jest --config jest.config.json",
     "prepare" : "npm run build",
     "prepublishOnly" : "npm test && npm run lint",
     "preversion" : "npm run lint",
