@@ -1,6 +1,6 @@
 {
   "name": "csb-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSB Typescript Package to Send Events",
   "repository": "https://github.com/customersuccessbox/csb-ts",
   "main": "dist/index.js",
@@ -15,11 +15,11 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "cross-env ENDPOINT=https://xen.staging.customersuccessbox.com API_KEY=HIpCPTmhCou/lvGwMdn7fUZ25bl24d2EmwXRqJrhcDY= jest --config jest.config.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "csb",
